@@ -51,19 +51,19 @@ Este guia cobre os conceitos fundamentais e os comandos essenciais do QuickBMS p
 Com todos os conceitos estabelecidos em cima passamos para prática, por exemplo o seguinte arquivo:
 
 ```
-struct KypArchive //Estrutura do ficheiro.
+struct KypArchive //Estrutura do arquivo.
 {
-    string MagicID; //Assinatura do ficheiro.
-    int FileSize; //Tamanho do ficheiro.
+    string MagicID; //Assinatura do arquivo.
+    int FileSize; //Tamanho do arquivo.
     int FileCount; //Total de ficheiros dentro do arquivo.
-    int Padding; //Espaçamento  dentro do ficheiro.
+    int Padding; //Espaçamento  dentro do arquivo.
 
     List<KypFileEntry> Files; //Ficheiros dentro do arquivo.
 }
 ```
 
 ```
-struct KypFileEntry //Detalhes do cada arquivo.
+struct KypFileEntry //Detalhes de cada ficheiro.
 {
     int Offset; //Aponta onde o ficheiro se encontra
     int Length; //Tamanho do ficheiro.
