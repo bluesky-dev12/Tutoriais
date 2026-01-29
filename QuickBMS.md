@@ -85,6 +85,6 @@ for i = 0 < fileCount
    get pointer long //Lê o endereço do ficheiro dentro arquivo
    get length long //Lê o Tamanhodo ficheiro dentro arquivo
    getdstring name 0x8 //Lê a string com o tamanho de 8 bytes que é o nome do ficheiro.
-   log name pointer length //Ele assigna o nome, viaja até ao ponteiro, extrair o arquivo até ao tamanho registado.
+   log name pointer length //Ele assigna o nome, viaja até ao ponteiro, extrai o arquivo até ao tamanho registado.
 next i //Continua o loop.
 ```
