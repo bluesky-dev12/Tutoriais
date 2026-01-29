@@ -20,10 +20,10 @@ Este guia cobre os conceitos fundamentais e os comandos essenciais do QuickBMS p
 
 | QuickBMS: | Programação: | Tamanho: | Descrição: |
 |:--------:|:-----------:|:---------:|:---------:|
-| `Byte`     | `byte`   | 1 bytes | Valor inteiro de 8 bits, variando de 0x00 (0) a 0xFF (255). |
-| `Short`     | `short`   | 2 bytes | Valores inteiro de 16 bits. |
-| `Long`     | `int`   | 4 bytes | Valores inteiro de 32 bits. |
-| `Float`     | `float`   | 4 bytes | Valores decimais de 32 bits. Ex: 0.01. |
+| `byte`     | `byte`   | 1 bytes | Valor inteiro de 8 bits, variando de 0x00 (0) a 0xFF (255). |
+| `short`     | `short`   | 2 bytes | Valores inteiro de 16 bits. |
+| `long`     | `int`   | 4 bytes | Valores inteiro de 32 bits. |
+| `float`     | `float`   | 4 bytes | Valores decimais de 32 bits. Ex: 0.01. |
 | `string`     | `string`   | Sem tamanho fixo. | Cadeia de carateres. Um texto por exemplo. |
 
 ### Termos Hexadecimais:
