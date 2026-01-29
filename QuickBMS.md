@@ -16,7 +16,7 @@ Este guia cobre os conceitos fundamentais e os comandos essenciais do QuickBMS p
 - Se o ficheiro possui algum tipo de compressão.
 
 ### Tipo váriaveis:
-- Tamanhos usandos para ler valores dentro do ficheiro.
+- Tamanhos usados para ler valores dentro do ficheiro.
 
 | QuickBMS: | Programação: | Tamanho: | Descrição: |
 |:--------:|:-----------:|:---------:|:---------:|
